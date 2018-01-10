@@ -1,0 +1,80 @@
+@media only screen and (max-width: 767px) {
+
+    .marketing-module-mobile-button-fix {
+        margin-top: -25px;
+        padding-bottom: 25px;
+    }
+    .half-size-marketing-left {
+        width: 100% !important;
+        float: left;
+        margin-right: 0 !important;
+    }
+    .half-size-marketing-right {
+        width: 100% !important;
+        float: left;
+        margin-left: 0 !important;
+    }
+}
+
+.marketing-module button {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.marketing-module .fscs-logo-marketing-module {
+    width: 67px;
+    font-size: 16px;
+}
+
+@include bp-medium {
+    .marketing-module .fscs-logo-marketing-module {
+        width: 86px;
+        font-size: 18px;
+    }
+}
+
+@include bp-large {
+    .marketing-module .fscs-logo-marketing-module {
+        width: 120px;
+        font-size: 26px;
+    }
+}
+
+.marketing-module-style {
+    width: 100%;
+}
+
+.half-size-marketing-left {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+
+.half-size-marketing-right {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+
+.full-size-marketing {
+    width: 100%;
+    float: left;
+    margin-left: 1%;
+}
+
+.marketing-module-numbering {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'FFMetaWebProMedium';
+}
+
+.marketing-module-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@include bp-medium {
+    .marketing-module-text {
+        margin-top: 35px;
+    }
+}

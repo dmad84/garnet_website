@@ -1,0 +1,27 @@
+.notification-text {
+    color: white;
+    padding: 8px 0;
+    .module-button {
+        margin-top: 7px;
+    }
+}
+
+.cookie-info {
+    height: auto;
+    background-color: $dark-blue;
+}
+
+.warning-info {
+    background-color: $red;
+}
+
+.confirm-message {
+    padding: 15px 0 25px 30px;
+    -moz-box-shadow: 4px 4px 4px black;
+    -webkit-box-shadow: 4px 4px 4px black;
+    box-shadow: 4px 4px 4px rgba(95, 95, 95, 0.4);
+}
+
+.any-questions {
+    padding: 15px 0 25px 30px;
+}

@@ -1,0 +1,68 @@
+.campaign-panel {
+    height: 250px;
+    /* lt ie8 */
+    -ms-background-position-x: center;
+    -ms-background-position-y: bottom;
+    background-position: center bottom;
+
+    /* scale bg image proportionately */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
+    -ms-behavior: url(https://cdn.css-tricks.com/backgroundsize.min.htc);
+    /* prevent scaling past src width (or not) */
+    /* max-width: 1200px; */
+    padding: 20px 0 15px 20px;
+    .large-text {
+        margin: 0;
+        padding: 0;
+    }
+    .module-button-holder {
+        height: 100%;
+        .module-button {
+            position: absolute;
+            bottom: 0px;
+            right: 15px;
+        }
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        /*Safari 5.1-6*/
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        /*Opera 11.1-12*/
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        /*Fx 3.6-15*/
+        background: linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        /*Standard*/
+        background: -webkit-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        opacity: .6;
+    }
+}
+
+@include bp-medium {
+    .campaign-panel {
+        height: 400px;
+        padding: 30px 0 15px 30px;
+        .large-text {
+            font-size: 36px !important;
+        }
+    }
+}
+
+@include bp-large {
+    .campaign-panel {
+        height: 500px;
+        padding: 40px 0 15px 40px;
+        .large-text {
+            font-size: 40px !important;
+        }
+    }
+}

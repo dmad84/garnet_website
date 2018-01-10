@@ -1,0 +1,113 @@
+/* standard app typography */
+
+@media only screen and (max-width: 1024px) {
+    body,
+    legend {
+        font-size: 14px !important;
+    }
+    .foot-notes {
+        font-size: 18px !important;
+    }
+    .large-text,
+    .large-text h1,
+    .large-text h2,
+    .large-text h3 {
+        font-size: 26px !important;
+    }
+    .intro-section-text,
+    .intro-section-text-grey,
+    .intro-section-text-black {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .foot-notes {
+        font-size: 12px !important;
+    }
+    .large-text,
+    .large-text h1,
+    .large-text h2,
+    .large-text h3 {
+        font-size: 24px !important;
+    }
+    .intro-section-text,
+    .intro-section-text-grey,
+    .intro-section-text-black {
+        font-size: 16px !important;
+    }
+    .margin-minus25-right {
+        margin-right: -25px !important;
+    }
+}
+
+.foot-notes {
+    color: $grey-2;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.section-devider {
+    border-bottom: 1px $dark-blue-2 dashed;
+    width: 100%;
+}
+
+.section-devider-grey {
+    border-bottom: 2px $grey-3 dotted;
+    width: 100%;
+}
+
+.large-text,
+.large-text h1,
+.large-text h2,
+.large-text h3 {
+    font-size: 34px;
+    color: $dark-blue-2;
+    margin: 10px 0 10px 0;
+}
+
+.intro-section-text {
+    font-size: 20px;
+    color: $dark-blue-2;
+    margin: 10px 0 10px 0;
+}
+
+.intro-section-text-black {
+    font-size: 20px;
+    color: black;
+    margin: 10px 0 10px 0;
+}
+
+.intro-section-text-grey {
+    font-size: 20px;
+    color: $grey-1;
+    margin: 10px 0 10px 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.dark-blue-text {
+    color: $dark-blue-2;
+}
+
+.awards-text {
+    margin: 15px 0 10px 0;
+    text-align: left;
+}
+
+@include bp-large {
+    .awards-text {
+        margin: 20px 0 15px 0;
+    }
+}
+
+.awards-text-description {
+    font-size: 23px;
+}
+
+.share-panel-line {
+    border-top: dashed 1px black;
+    margin-bottom: 10px;
+}

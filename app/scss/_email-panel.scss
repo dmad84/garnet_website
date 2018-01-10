@@ -1,0 +1,22 @@
+.email-input {
+    width: 100%;
+    height: 50px;
+}
+
+.email-button {
+    border: 2px solid transparent;
+    height: 50px;
+    background-color: $dark-blue;
+    color: white;
+    width: 90%;
+    text-align: left;
+}
+
+.contact-input-message {
+    height: 200px;
+}
+
+.contact-input-name,
+.contact-input-message {
+    width: 50%;
+}

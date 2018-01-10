@@ -1,0 +1,73 @@
+/* only demo styles */
+
+
+/* end only demo styles */
+
+legend {
+    border: none;
+}
+
+.checkbox input[type=checkbox],
+.radio input[type=radio] {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox input[type=checkbox],
+.checkbox label,
+.radio input[type=radio],
+.radio label,
+.checkbox .t1,
+.radio .t1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.checkbox label,
+.radio label {
+    position: relative;
+    margin-left: 40px;
+}
+
+.checkbox input[type=checkbox]:focus+label:before,
+.radio input[type=radio]:focus+label:before {
+    outline: none;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px $orange;
+    border: 1px solid $orange !important;
+    /* focus style */
+}
+
+.radio input[type=radio]+label:before,
+.checkbox input[type=checkbox]+label:before {
+    content: "";
+    background: #fff;
+    border: 1px solid #595959;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -40px;
+    width: 27px;
+    height: 27px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.radio input[type=radio]:checked+label:before,
+.checkbox input[type=checkbox]:checked+label:before {
+    content: "\e929";
+    font-family: 'VTB-Icons';
+    font-size: 15px;
+    color: white;
+    background: $green;
+    border: 1px solid $green;
+}
+
+.checkbox label,
+.radio label {
+    padding-left: 0;
+}

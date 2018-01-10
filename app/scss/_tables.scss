@@ -1,0 +1,39 @@
+.table-padding {
+    padding: 20px 0;
+}
+
+.table-cell-width {
+    width: 48%;
+}
+
+a.open-faq-icon {
+    color: black;
+}
+
+a.open-faq-icon:hover,
+a.open-faq-icon:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table>tr {
+    border: 0 !important;
+}
+
+.table-responsive {
+    border: 0 !important;
+}
+
+.table-responsive td,
+.table-responsive th {
+    padding-left: 15px !important;
+    vertical-align: top;
+}
+
+.table-row-padding {
+    //padding: 0 15px 0 15px !important;
+}
+
+.show-faq-text>span {
+    display: none;
+}

@@ -1,0 +1,62 @@
+$color-dark-blue: #0A2973;
+$color-mid-blue: #0A4B8C;
+$color-mid-blue-2: #B8CADC;
+$color-light-blue-1: #D4E1F0;
+$color-light-blue-2: #E0E9F3;
+$color-light-blue-3: #EEF3F9;
+$color-light-blue-4: #F6F9FC;
+$color-light-grey-1: #474747;
+$color-light-grey-2: #595959;
+$color-light-grey-3: #B2B2B2;
+$color-light-grey-4: #EFEFEF;
+$color-light-grey-5: #F9F9F9;
+$color-white: #fff;
+$color-black: #000;
+$color-orange: #F8A44A;
+$color-orange-2: #FCE8D3;
+$color-red: #B71126;
+$color-green: #1E6645;
+$heading-color: $color-dark-blue;
+$information-text-color: $color-dark-blue;
+$warning-text-color: $color-red;
+$footer-link-color: $color-dark-blue;
+$footer-back-link-color: $color-light-grey-2;
+$footer-text-color: $color-light-grey-1;
+$header-background-color: $color-light-blue-1;
+$footer-background-color: $color-light-blue-3;
+$copy-rights-background-color: $color-light-blue-2;
+$focus-color: $color-orange;
+$cta-background-color: $color-mid-blue;
+$cta-background-hover-color: $color-dark-blue;
+$cta-background-focus-color: $color-mid-blue;
+$cta-color: $color-white;
+$cta-disabled-background-color: $color-mid-blue-2;
+$cta-disabled-color: $color-dark-blue;
+$cta1-alternative-background-color: $color-mid-blue-2;
+$cta2-alternative-background-color: $color-light-grey-1;
+$cta1-alternative-color: $color-dark-blue;
+$cta-alternative-background-color: $color-mid-blue;
+$cta-link-disabled-color: $color-light-blue-2;
+$cta-box-background-color: $color-light-blue-1;
+$cta-box-color: $color-dark-blue;
+// styles
+.background--grey {
+    background: $color-light-grey-5
+}
+
+.dark-blue {
+    color: $color-dark-blue
+}
+
+.warning {
+    color: $warning-text-color;
+    font-size: 30px;
+}
+
+.background--blue {
+    background: #F6F9FC;
+}
+
+.color-grey {
+    color: $color-light-grey-1;
+}

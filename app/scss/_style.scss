@@ -1,0 +1,289 @@
+body,
+legend {
+    font-family: 'FFMetaWebProNormal';
+    font-size: 18px;
+    color: black;
+}
+
+ul>li>a:focus {
+    outline: none !important;
+}
+
+.medium-text {
+    font-family: 'FFMetaWebProMedium';
+}
+
+.normal-text {
+    font-family: 'FFMetaWebProNormal';
+}
+
+.top-margin-10 {
+    margin-top: 10px;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.light-blue-1 {
+    background-color: $light-blue-1;
+}
+
+.light-blue-2 {
+    background-color: $light-blue-2;
+}
+
+.light-blue-5 {
+    background-color: $light-blue-5;
+}
+
+.dark-blue {
+    background-color: $dark-blue;
+}
+
+.dark-blue-2 {
+    background-color: $dark-blue-2;
+}
+
+.mid-blue {
+    background-color: $mid-blue;
+}
+
+.orange-2 {
+    background-color: $orange-2;
+}
+
+.bright-green {
+    background-color: $bright-green;
+}
+
+.purple-gradient {
+    background: $purple;
+    ;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-66deg, #6e2a75, #a3519d);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-66deg, #6e2a75, #a3519d);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-66deg, #6e2a75, #a3519d);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-66deg, #6e2a75, #a3519d);
+    /* Standard syntax */
+}
+
+.grey-4 {
+    background-color: $grey-4;
+}
+
+.grey-5 {
+    background-color: $grey-5;
+}
+
+.zero-margin-left {
+    margin-left: 0px;
+}
+
+.zero-side-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.margin-left-10 {
+    margin-left: 10px !important;
+}
+
+.text-grey-2 {
+    color: $grey-2;
+}
+
+.grey-1-text {
+    color: $grey-1 !important;
+}
+
+.text-dark-blue {
+    color: $dark-blue;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-34 {
+    font-size: 34px;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.pale-green {
+    background-color: $pale-green;
+}
+
+.fb-blue {
+    color: #3b5998;
+}
+
+.twitter-blue {
+    color: #00aced;
+}
+
+.white {
+    background-color: white;
+}
+
+.box-shaddow {
+    box-shadow: 0 0 10px 1px rgba(150, 150, 150, 0.5);
+}
+
+.blog-icon-font-size {
+    font-size: 31px;
+}
+
+.margin-right-3 {
+    margin-right: 3px;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.bottom-margin {
+    margin-bottom: 15px;
+}
+
+.left-margin {
+    margin-left: 15px !important;
+}
+
+.right-margin {
+    margin-right: 15px;
+}
+
+.left-padding-5 {
+    padding-left: 5px;
+}
+
+.padding-25-top {
+    padding-top: 25px;
+}
+
+.padding-15-right {
+    padding-right: 15px;
+}
+
+.padding-25-bottom {
+    padding-bottom: 25px;
+}
+
+.padding-10-all {
+    padding: 10px !important;
+}
+
+.padding-5-all {
+    padding: 5px !important;
+}
+
+.remove-pad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.margin-25-top {
+    margin-top: 25px;
+}
+
+.margin-25-bottom {
+    margin-bottom: 25px;
+}
+
+.margin-30-left {
+    margin-left: 30px;
+}
+
+.margin-25-left {
+    margin-left: 25px;
+}
+
+.margin-25-right {
+    margin-right: 25px;
+}
+
+.margin-50-bottom {
+    margin-bottom: 50px;
+}
+
+.margin-50-top {
+    margin-top: 50px;
+}
+
+.margin-minus15-right {
+    margin-right: -15px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.panel-divider {
+    padding-right: -10px !important;
+}
+
+.blue-bullet {
+    color: $dark-blue-2;
+    display: list-item;
+    list-style-type: disc;
+}
+
+tr:nth-child(odd) {
+    background: $grey-4;
+}
+
+
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+
+
+.social-size {
+    font-size: 40px !important;
+}
+
+.opacity-half {
+    opacity: 0.8;
+}
+
+.opacity-full {
+    opacity: 1;
+}
+
+
+.center-images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.border-top-dotted {
+    border-top: 1px dashed $dark-blue;
+}
+
+.doc-select-dropdowns {
+    width: 100%;
+}
+
+
+.responsive-img {
+    width: 100%;
+}

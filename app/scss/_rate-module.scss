@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1200px) {
+    .module-banner {
+        font-size: 26px !important;
+        padding: 3px 0 0 7.5px !important;
+    }
+    .percentage-number {
+        font-size: 82.5px !important;
+    }
+    .percentage-number-secondary {
+        font-size: 90px !important;
+    }
+    .aer {
+        font-size: 19.5px !important;
+        margin-top: 24px !important;
+    }
+    .percentage-sign {
+        font-size: 37.5px !important;
+        margin-top: -7.5px !important;
+    }
+    .module-content-link {
+        height: 247px !important;
+        background-color: $light-blue-2;
+    }
+    .account-module-text {
+        font-size: 28px !important;
+        padding: 15px 0 0 15px !important;
+        margin-bottom: 80px !important;
+    }
+    .account-module-link {
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .module-banner {
+        font-size: 24px !important;
+        padding: 3px 0 0 7.5px !important;
+    }
+    .percentage-number {
+        font-size: 82.5px !important;
+    }
+    .aer {
+        font-size: 19.5px !important;
+        margin-top: 24px !important;
+    }
+    .percentage-sign {
+        font-size: 37.5px !important;
+        margin-top: -7.5px !important;
+    }
+    .account-module-text {
+        color: $dark-blue;
+        font-size: 28px !important;
+        padding: 15px 0 0 15px !important;
+        margin-bottom: 0px !important;
+    }
+    .account-module-link {
+        color: $dark-blue;
+        font-size: 16px !important;
+    }
+    .module-banner-font-large {
+        font-size: 38px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1022px) {
+    .module-content-link {
+        height: 218px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .responsive-margin-bottom {
+        margin-bottom: 15px !important;
+    }
+    .module-banner {
+        font-size: 14px !important;
+        padding: 2px 0 0 2px !important;
+    }
+    .percentage-number {
+        letter-spacing: -3px !important;
+        font-size: 45px !important;
+        margin-right: 5px !important;
+    }
+    .aer {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+    .percentage-sign {
+        font-size: 20px !important;
+        margin-top: -5.5px !important;
+    }
+    .module-banner-font-large {
+        font-size: 30px !important;
+    }
+    .module-content-link {
+        height: 159px !important;
+        background-color: $light-blue-2;
+    }
+    .account-module-text {
+        font-size: 15px !important;
+        padding: 10px 5px 0 10px !important;
+        margin-bottom: 20px !important;
+    }
+    .account-module-link {
+        font-size: 16px !important;
+    }
+    .percentage-number-secondary {
+        font-size: 80px !important;
+    }
+    .aer-secondary {
+        font-size: 20px !important;
+        margin-top: 16px !important;
+        margin-left: 10px !important;
+    }
+    .percentage-sign-secondary {
+        font-size: 40px !important;
+        margin-left: 10px !important;
+    }
+    .module-link {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .module-banner {
+        font-size: 10px !important;
+        padding: 3px 0 0 2px !important;
+    }
+    .percentage-number {
+        font-size: 30px !important;
+    }
+    .aer {
+        font-size: 10px !important;
+        margin-top: 7px !important;
+    }
+    .percentage-sign {
+        font-size: 18px !important;
+        margin-top: -4px !important;
+    }
+    .module-banner-font-large {
+        font-size: 16px !important;
+    }
+    .module-content-link {
+        height: 141px !important;
+        background-color: $light-blue-2;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .module-banner {
+        font-size: 10px !important;
+        padding: 3px 0 0 2px !important;
+    }
+    .percentage-number {
+        font-size: 30px !important;
+    }
+    .aer {
+        font-size: 10px !important;
+        margin-top: 7px !important;
+    }
+    .percentage-sign {
+        font-size: 18px !important;
+        margin-top: -4px !important;
+    }
+    .module-banner-font-large {
+        font-size: 16px !important;
+    }
+}
+
+.module {
+    margin: 15px 0 15px 0;
+}
+
+.module .module-link {
+    padding-left: 5px;
+}
+
+.module-banner {
+    height: auto;
+    font-size: 22px;
+    padding: 10px 0 10px 15px;
+    color: $dark-blue;
+}
+
+.module-banner-font-large {
+    font-size: 48px;
+    line-height: 1.1em;
+    padding: 15px;
+}
+
+.module-content {
+    height: auto;
+}
+
+.module-content-link {
+    height: 287px;
+    background-color: $light-blue-2;
+}
+
+.percentage-number,
+.percentage-number-secondary {
+    letter-spacing: -9px;
+    color: $dark-blue;
+    font-size: 110px;
+    font-family: 'FFMetaWebProMedium';
+}
+
+.aer,
+.aer-secondary {
+    letter-spacing: 1;
+    color: $dark-blue;
+    font-size: 26px;
+    margin-top: 32px;
+}
+
+.percentage-sign,
+.percentage-sign-secondary {
+    color: $dark-blue;
+    font-size: 50px;
+    margin-top: 0px !important;
+}
+
+.account-module-text {
+    color: $dark-blue;
+    font-size: 28px;
+    padding: 25px 10px 0 25px;
+    margin-bottom: 110px;
+}
+
+.module-link {
+    color: $dark-blue;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.account-module-link {
+    color: $dark-blue;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.module .account-module-link {
+    padding-left: 20px;
+}
+
+a:focus {
+    outline: 0 !important;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.module button {
+    margin-bottom: 15px;
+}

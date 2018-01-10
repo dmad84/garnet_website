@@ -1,0 +1,445 @@
+@media only screen and (max-width: 767px) {
+
+    .mobile-remove-list-whitespace {
+        margin-top: -25px !important;
+    }
+    .zero-margin-left {
+        margin-left: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-header {
+        height: 52px !important;
+    }
+    .nav-margin-top {
+        margin-top: 0 !important;
+    }
+    .nav>li>a {
+        font-size: 16px !important;
+    }
+    .fscs-logo {
+        width: 73px !important;
+    }
+    .fscs-logo-main-page {
+        margin-left: 0 !important;
+    }
+    .fscs-logo-secondary-page {
+        width: 67px !important;
+    }
+    .vtb-logo {
+        width: 227px !important;
+    }
+
+    .main-heading h1,
+    .main-heading h2,
+    .main-heading h3 {
+        font-size: 55px !important;
+    }
+
+
+    .page-header-secondary-img {
+        height: 240px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main-heading h1,
+    .main-heading h2,
+    .main-heading h3 {
+        font-size: 45px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        height: 42px !important;
+    }
+    .fscs-logo {
+        width: 57px !important;
+        margin-left: 0px !important;
+    }
+    .vtb-logo {
+        width: 170px !important;
+    }
+    .remove-responsive-nav-pipe {
+        display: none !important;
+    }
+    .fscs-logo-secondary-page {
+        width: 57px !important;
+
+        margin-top: 4px !important;
+    }
+    .header-nav-margin {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .nav-pipe {
+        display: none !important;
+    }
+    .nav-line {
+        display: inline !important;
+    }
+
+    .main-heading h1,
+    .main-heading h2,
+    .main-heading h3 {
+        font-size: 28px !important;
+    }
+    .hover-link {
+        font-size: 24px !important;
+    }
+}
+
+.navbar {
+    margin-bottom: -4px;
+    border-radius: 0px;
+}
+
+.navbar-header {
+    height: 70px;
+}
+
+.nav-margin-top {
+    margin-top: 10px;
+}
+
+.responsive-nav-pipe {
+    margin-left: 25px;
+}
+
+span.responsive-nav-pipe:hover {
+    text-decoration: none !important;
+}
+
+.responsive-image>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.nav>li>a>span.hover-link:active,
+.nav>li>a>span.hover-link:focus {
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: $orange;
+}
+
+.nav>li>a:focus,
+.nav>li>a:active {
+    background-color: transparent;
+}
+
+
+.hover-link:hover {
+    text-decoration: underline;
+}
+
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
+.nav>li>a {
+    font-size: 25px;
+    color: $color-light-grey-2;
+}
+
+
+
+.main-heading {
+    top: 40px;
+    position: absolute;
+    right: 100;
+}
+
+.header-margin {
+    margin-top: 200px;
+}
+
+@include bp-medium {
+    .main-heading {
+        top: 130px;
+        position: absolute;
+        left: 50%;
+    }
+    .header-margin {
+        margin-top: 420px;
+    }
+}
+
+@include bp-large {
+    .main-heading {
+        top: 140px;
+        position: absolute;
+        left: 55%;
+    }
+    .header-margin {
+        margin-top: 470px;
+    }
+}
+
+.main-heading h1,
+.main-heading h2,
+.main-heading h3 {
+    font-size: 60px;
+    background: none;
+    &.blue {
+        color: $color-dark-blue;
+    }
+    &.white {
+        color: $color-white;
+    }
+    &.grey {
+        color: $color-light-grey-2
+    }
+}
+
+.header-line-height {
+    line-height: 1.2em !important;
+}
+
+.vtb-logo {
+    position: absolute;
+    margin-top: -5px;
+    width: 333px;
+}
+
+@include bp-medium {
+    .vtb-logo {
+
+        margin-top: -10px;
+    }
+}
+
+
+
+
+@include bp-xlarge {
+    .vtb-logo {
+
+        margin-top: -17px;
+    }
+}
+
+.fscs-logo-main-page {
+    position: absolute;
+    width: 97px;
+    margin-left: 60px;
+}
+
+.fscs-logo-secondary-page {
+    width: 97px;
+    -webkit-box-shadow: inset 100px 30px 30px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 100px 30px 30px rgba(0, 0, 0, 0.075);
+    margin-top: 4px;
+}
+
+.fscs-logo {
+    position: absolute;
+    width: 97px;
+    margin-left: -25px;
+}
+
+
+
+.nav-line {
+    display: none;
+}
+
+.image-gradient {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        /*Safari 5.1-6*/
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        /*Opera 11.1-12*/
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        /*Fx 3.6-15*/
+        background: linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        /*Standard*/
+        background: -webkit-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        opacity: .6;
+    }
+
+    /* For browsers that do not support gradients */
+}
+
+.page-header-main-index-img {
+
+    display: block;
+    z-index: -9999;
+
+    margin-top: -75px !important;
+}
+
+
+.page-header-main-img {
+    width: 100%;
+    display: block;
+    z-index: -9999;
+}
+
+.page-header-main-index-img>img {
+    width: 100%;
+    display: block;
+    z-index: -9999;
+    position: absolute;
+    margin-top: -75px !important;
+    height: 520px;
+}
+
+
+.image-gradient>img {
+    width: 100%;
+    background: transparent;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    /*Fx 3.6-15*/
+    background: linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    /*Standard*/
+}
+
+.sticky-header {
+    height: 100px;
+    z-index: 1000;
+    .container {
+        padding: 0;
+    }
+
+    .module-button {
+        width: 58px;
+        float: left;
+        &.white {
+            margin-right: 10px;
+        }
+        .module-button-text {
+
+            margin-left: 0px;
+            .button-icons {
+                margin-top: 15px !important;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+
+
+
+@include bp-large {
+
+    .sticky-header {
+        height: 67px;
+        .module-button {
+            width: 120px;
+            .module-button-text {
+                width: 100%;
+                .button-icons {
+                    margin-top: 25px !important;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    position: relative;
+}
+
+.nav li a:last-child {
+    padding-right: 0;
+}
+
+
+.nav-pipe:focus,
+.nav-pipe:active {
+    text-decoration: none;
+}
+
+.crop-height {
+    /* max-width: 1200px; /* img src width (if known) */
+    height: 260px;
+    width: 100%;
+    position: absolute;
+    /* lt ie8 */
+    -ms-background-position-x: center;
+    -ms-background-position-y: center;
+    background-position: center center;
+
+    /* scale bg image proportionately */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
+    -ms-behavior: url(https://cdn.css-tricks.com/backgroundsize.min.htc);
+    /* prevent scaling past src width (or not) */
+    /* max-width: 1200px; */
+}
+
+.main-heading h1 {
+    font-weight: 600;
+    .crop-height {
+        height: 480px;
+    }
+}
+
+@include bp-medium {
+    .crop-height {
+        height: 480px;
+    }
+}
+
+@include bp-large {
+    .crop-height {
+        height: 520px;
+    }
+}
+
+.nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+@include bp-medium {
+    .nav>li>a {
+        padding-left: 40px;
+    }
+}
+
+.crop-height {
+    overflow: hidden;
+}
+
+.fullscreen-bg-video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .6;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+@include bp-medium { 
+.fullscreen-bg-video {
+    top: 50%;
+}
+}
+@include bp-large {
+    .fullscreen-bg-video {
+        height: auto;
+    }
+}

@@ -1,0 +1,81 @@
+.lightbox-content {
+    border-radius: 0px !important;
+    background-color: $grey-5 !important;
+}
+
+
+
+.lightbox-header {
+    border-bottom: 1px #0A1863 dashed;
+    height: 50px;
+}
+
+@include bp-medium {
+    .lightbox-header {
+        height: 60px;
+    }
+}
+
+@include bp-large {
+    .lightbox-header {
+        height: 72px;
+    }
+}
+
+button.close {
+    margin: 10px -5px 10px 0;
+    font-size: 22px;
+}
+
+.close-size {
+
+    &:focus {
+        border: none;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.modal-content {
+    padding: 0px 15px;
+}
+
+
+
+@include bp-medium {
+    .modal-content {
+        padding: 0px 25px;
+    }
+
+    button.close {
+        margin: 12px -5px 12px 0;
+        font-size: 32px;
+    }
+}
+
+@include bp-large {
+    .modal-content {
+        padding: 0px 34px;
+    }
+
+    button.close {
+        margin: 17px -5px 17px 0;
+        font-size: 32px;
+    }
+}
+
+.modal-body {
+    padding: 0;
+}
+
+
+legend {
+    margin-bottom: 10px;
+}

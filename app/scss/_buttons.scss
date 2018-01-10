@@ -1,0 +1,150 @@
+button {
+    padding: 0;
+    font-style: 'FFMetaWebProNormal';
+}
+
+
+
+
+@media only screen and (max-width: 1023px) {
+    .module-button-alignment {
+        right: 1px !important;
+        padding-bottom: 0;
+        float: none !important;
+    }
+}
+
+.header-button {
+    margin-top: 0px;
+    font-size: 16px;
+    padding: 2.5px 5px;
+    color: white;
+    background-color: #0A4B8C;
+    border: 2px transparent solid;
+    font-weight: 100;
+}
+
+@include bp-medium {
+    .header-button {
+        margin-top: 30px;
+    }
+}
+
+@include bp-large {
+    .header-button {
+        font-size: 22px;
+        text-align: left;
+        padding: 5px 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .module-banner {
+        font-size: 20px !important;
+        padding: 5px 0 5px 5px !important;
+    }
+    .header-nav-margin {
+        width: 100%;
+        margin-bottom: 75px;
+    }
+}
+
+
+.header-button:focus {
+    border: 2px $orange solid;
+}
+
+.module {
+    .module-button {
+        clear: left;
+    }
+}
+
+.module-button {
+
+    text-align: left;
+    position: relative;
+    line-height: 1;
+    height: 80px;
+    width: 80px;
+    font-size: 18px;
+    border: 0;
+    color: darkblue;
+    border: 2px transparent solid;
+    .button-icons {
+        font-size: 25px;
+    }
+}
+
+@include bp-medium {
+    .module-button {
+        height: 86px;
+        width: 86px;
+        font-size: 18px;
+    }
+}
+
+@include bp-large {
+    .module-button {
+        height: 115px;
+        width: 115px;
+        font-size: 26px;
+        .button-icons {
+            font-size: 30px;
+        }
+    }
+}
+
+
+.module-button-alignment {
+    right: -25px;
+    padding-bottom: 15px;
+    float: right;
+}
+
+.module-button-green-hov:hover {
+    background-color: $dark-blue;
+    color: white;
+}
+
+.module-button-text {
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    word-wrap: break-word;
+}
+
+.button-icons {
+    position: absolute;
+    bottom: 0;
+    padding: 2px;
+    right: 0;
+}
+
+@include bp-medium {
+    .button-icons {
+
+        padding: 5px;
+    }
+}
+
+button:focus {
+    border: 2px $orange solid;
+    outline: none !important;
+}
+
+.secondary-link {
+    color: $dark-blue;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
