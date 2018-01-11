@@ -28,6 +28,7 @@ button {
     .header-button {
         margin-top: 30px;
     }
+
 }
 
 @include bp-large {
@@ -47,10 +48,15 @@ button {
         font-size: 20px !important;
         padding: 5px 0 5px 5px !important;
     }
+    
+}
+@media only screen and (max-width: 767px) {
+
     .header-nav-margin {
         width: 100%;
         margin-bottom: 75px;
     }
+    
 }
 
 
