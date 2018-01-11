@@ -266,20 +266,8 @@
     margin-left: 0 !important; }
   .fscs-logo-secondary-page {
     width: 67px !important; }
-  .vtb-logo {
-    width: 227px !important; }
-  .main-heading h1,
-  .main-heading h2,
-  .main-heading h3 {
-    font-size: 55px !important; }
   .page-header-secondary-img {
     height: 240px !important; } }
-
-@media only screen and (max-width: 768px) {
-  .main-heading h1,
-  .main-heading h2,
-  .main-heading h3 {
-    font-size: 45px !important; } }
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
@@ -287,8 +275,6 @@
   .fscs-logo {
     width: 57px !important;
     margin-left: 0px !important; }
-  .vtb-logo {
-    width: 170px !important; }
   .remove-responsive-nav-pipe {
     display: none !important; }
   .fscs-logo-secondary-page {
@@ -301,10 +287,6 @@
     display: none !important; }
   .nav-line {
     display: inline !important; }
-  .main-heading h1,
-  .main-heading h2,
-  .main-heading h3 {
-    font-size: 28px !important; }
   .hover-link {
     font-size: 24px !important; } }
 
@@ -376,7 +358,7 @@ span.responsive-nav-pipe:hover {
 .main-heading h1,
 .main-heading h2,
 .main-heading h3 {
-  font-size: 60px;
+  font-size: 28px;
   background: none; }
   .main-heading h1.blue,
   .main-heading h2.blue,
@@ -391,17 +373,35 @@ span.responsive-nav-pipe:hover {
   .main-heading h3.grey {
     color: #595959; }
 
+@media only screen and (min-width: 768px) {
+  .main-heading h1,
+  .main-heading h2,
+  .main-heading h3 {
+    font-size: 45px; } }
+
+@media only screen and (min-width: 992px) {
+  .main-heading h1,
+  .main-heading h2,
+  .main-heading h3 {
+    font-size: 55px; } }
+
 .header-line-height {
   line-height: 1.2em !important; }
 
 .vtb-logo {
   position: absolute;
   margin-top: -5px;
-  width: 333px; }
+  width: 176px; }
 
 @media only screen and (min-width: 768px) {
   .vtb-logo {
-    margin-top: -10px; } }
+    margin-top: -10px;
+    width: 227px; } }
+
+@media only screen and (min-width: 992px) {
+  .vtb-logo {
+    width: 333px;
+    margin-top: -16px; } }
 
 @media only screen and (min-width: 1440px) {
   .vtb-logo {
@@ -559,7 +559,11 @@ span.responsive-nav-pipe:hover {
 .page-header-main-index-video {
   display: block;
   z-index: -9999;
-  margin-top: -75px; }
+  margin-top: -51px; }
+
+@media only screen and (max-width: 767px) {
+  .page-header-main-index-video + .header-margin {
+    margin-top: 220px; } }
 
 .fullscreen-bg-video {
   position: relative;
@@ -572,17 +576,15 @@ span.responsive-nav-pipe:hover {
 
 @media only screen and (min-width: 450px) and (max-width: 767px) {
   .fullscreen-bg-video {
-    top: 50%;
     height: auto;
     width: 100%; } }
 
 @media only screen and (min-width: 768px) {
   .fullscreen-bg-video {
-    top: 50%;
     min-width: 100%;
     height: auto; }
   .page-header-main-index-video {
-    margin-top: -68px; } }
+    margin-top: -71px; } }
 
 @media only screen and (min-width: 992px) {
   .fullscreen-bg-video {
